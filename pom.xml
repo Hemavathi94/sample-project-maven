@@ -33,13 +33,13 @@
         <dependency>
         <distributionManagement>
           <repository>
-            <id>nexusrepo</id>
-            <name>time-tracker</name>
+            <id>nexus</id>
+            <name>sample-maven-project-release</name>
             <url>http://65.0.81.206:8081/repository/sample-maven-project-release/</url>
           </repository>
           <snapshotRepository>
-            <id>nexusrepo</id>
-            <name>time-tracker-snapshot</name>
+            <id>nexus</id>
+            <name>sample-maven-project-snapshot</name>
             <url>http://65.0.81.206:8081/repository/sample-maven-project-snapshot/</url>
           </snapshotRepository>
         </distributionManagement> 
