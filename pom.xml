@@ -6,7 +6,7 @@
 
     <groupId>org.web3j.sample</groupId>
     <artifactId>sample-project-maven</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <web3j.version>3.6.0</web3j.version>
@@ -35,12 +35,12 @@
           <repository>
             <id>nexusrepo</id>
             <name>time-tracker</name>
-            <url>http://65.0.100.31:8081/repository/time-tracker-release/</url>
+            <url>http://65.0.81.206:8081/repository/sample-maven-project-release/</url>
           </repository>
           <snapshotRepository>
             <id>nexusrepo</id>
             <name>time-tracker-snapshot</name>
-            <url>http://65.0.100.31:8081/repository/time-tracker-snapshot/</url>
+            <url>http://65.0.81.206:8081/repository/sample-maven-project-snapshot/</url>
           </snapshotRepository>
         </distributionManagement> 
             <groupId>junit</groupId>
